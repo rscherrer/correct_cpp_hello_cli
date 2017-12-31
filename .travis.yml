@@ -5,14 +5,26 @@ before_install:
   # C++17
   - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   - sudo apt-get update -qq
+  # OCLint
+  - wget https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/install_oclint
+  - ./install_oclint
 
 install: 
   # C++17
   - sudo apt-get install -qq g++-7
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 90
+  # cppcheck
+  - sudo apt-get install -qq cppcheck
 
 script: 
-  - qmake
-  - make
+  - wget https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_cli/main.pro
+  - wget https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_cli/build
+  - ./build
+  - wget https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_cli/test
   - ./test
+  # cppcheck
+  - cppcheck --quiet --error-exitcode=1 . 
+  # OCLint
+  - wget https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_cli/do_oclint
+  - ./do_oclint
 
