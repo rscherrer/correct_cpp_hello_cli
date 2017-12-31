@@ -31,3 +31,9 @@
 *.out
 *.app
 *.pro.user
+hello_cli
+Makefile
+Makefile.Debug
+Makefile.Release
+created_*.txt
+expected_*.txt

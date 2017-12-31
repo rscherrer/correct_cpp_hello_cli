@@ -14,7 +14,5 @@ install:
 script: 
   - qmake
   - make
-  - ./hello_cli > created_0.txt
-  - ./hello_cli Richel > created_1.txt
-  - ./hello_cli Richel Bilderbeek > created_2.txt
+  - ./test
 
