@@ -1,7 +1,5 @@
 #!/bin/bash
 
-./build
-
 # Create expected result
 echo "Hello" > expected_0.txt
 echo "Hello Richel" > expected_1.txt
