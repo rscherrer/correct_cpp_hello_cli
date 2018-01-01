@@ -5,7 +5,7 @@
 ## Exercise
 
 Write a command-line interface (CLI) program that writes `Hello` to the screen.
-If the use has supplied at a command-line argument, show it, seperated by a space.
+If the user has supplied a command-line argument, show it, after adding a space between 'Hello' and the argument.
 Ignore command-line arguments beyond the first.
 In all cases, the output should be followed by a newline:
 
