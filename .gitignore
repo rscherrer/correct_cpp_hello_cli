@@ -37,3 +37,4 @@ Makefile.Debug
 Makefile.Release
 created_*.txt
 expected_*.txt
+main.pro
