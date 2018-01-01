@@ -18,7 +18,7 @@ Call to `hello_cli`|Result
 This is the code you start with:
 
 ```c++
-int main(int argc, char* argv[])
+main(argc, argv)
 {
   //Your code here
 }
@@ -31,6 +31,7 @@ int main(int argc, char* argv[])
 ## External links
 
  * [Richel Bilderbeek's page about argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md)
+ * [Qt Creator project file used in testing](https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_cli/main.pro)
 
 ## References
 
