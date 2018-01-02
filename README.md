@@ -1,5 +1,9 @@
 # correct_cpp_hello_cli
 
+Branch|[Travis CI](https://travis-ci.org)|[Codecov](https://www.codecov.io)
+---|---|---
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_hello_cli.svg?branch=master)](https://travis-ci.org/richelbilderbeek/correct_cpp_hello_cli)|[![codecov.io](https://codecov.io/github/richelbilderbeek/correct_cpp_hello_cli/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/correct_cpp_hello_cli/branch/master)
+
 [Correct C++](https://github.com/richelbilderbeek/correct_cpp) chapter 'Hello CLI'.
 
 ## Goal
