@@ -2,6 +2,15 @@
 
 [Correct C++](https://github.com/richelbilderbeek/correct_cpp) chapter 'Hello CLI'.
 
+## Goal
+
+ * Write a command-line interface (CLI)
+
+## Prerequisites
+
+ * Understand [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/how_this_course_works.md)
+ * Have written [a correct 'Hello world' program](https://github.com/richelbilderbeek/correct_cpp_hello_world)
+
 ## Exercise
 
 Write a command-line interface (CLI) program that writes `Hello` to the screen.
@@ -24,18 +33,15 @@ main(argc, argv)
 }
 ```
 
-## Advice
-
- * Avoid `std::endl` [1]
+ * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) is a container of raw strings
+ * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) has [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) elements
+ * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/run_your_program_with_arguments.md)
+ * Do not use [std::endl](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdEndl.md) [1]
 
 ## External links
 
- * [Richel Bilderbeek's page about argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md)
  * [Qt Creator project file used in testing](https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_cli/main.pro)
 
 ## References
 
  * [1] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
-
-
-
