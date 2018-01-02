@@ -4,7 +4,7 @@
 
 ## Goal
 
- * Write a command-line interface (CLI)
+ * Write a command-line interface (CLI) application
 
 ## Prerequisites
 
@@ -35,8 +35,9 @@ main(argc, argv)
 
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) is a container of raw strings
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) has [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) elements
- * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/run_your_program_with_arguments.md)
- * Do not use [std::endl](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdEndl.md) [1]
+ * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/run_your_program_with_arguments.md) if you need help on this
+ * Use (and prefer [1]) [std::cout](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdCout.md) 
+ * Do not use [std::endl](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdEndl.md) [2]
 
 ## External links
 
@@ -44,4 +45,5 @@ main(argc, argv)
 
 ## References
 
- * [1] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
+ * [1] [C++ Core Guidelines: SL.io.3: Prefer iostreams for I/O](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-streams)
+ * [2] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
