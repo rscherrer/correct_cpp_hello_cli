@@ -37,9 +37,11 @@ main(argc, argv)
 }
 ```
 
+ * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/run_your_program_with_arguments.md) if you need help on this
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) is a container of raw strings
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) has [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) elements
- * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/run_your_program_with_arguments.md) if you need help on this
+ * If [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) equals one, just show 'Hello'
+ * If [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) equals two or more, show 'Hello', a space, and the content of [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md)[1]
  * Use (and prefer [1]) [std::cout](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdCout.md) 
  * Do not use [std::endl](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdEndl.md) [2]
 
