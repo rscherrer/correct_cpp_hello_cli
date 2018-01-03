@@ -18,6 +18,7 @@ master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_hello
 ## Exercise
 
 Write a command-line interface (CLI) program that writes `Hello` to the screen.
+
 If the user has supplied a command-line argument, show it, after adding a space between 'Hello' and the argument.
 Ignore command-line arguments beyond the first.
 In all cases, the output should be followed by a newline:
