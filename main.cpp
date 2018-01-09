@@ -1,11 +1,4 @@
-#include <iostream>
-
-int main(int argc, char* argv[])
+main(argc, argv) 
 {
-  std::cout << "Hello";
-  if (argc > 1)
-  {
-    std::cout << ' ' << argv[1];
-  }
-  std::cout << '\n';
+
 }
