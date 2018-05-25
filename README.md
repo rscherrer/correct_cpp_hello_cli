@@ -38,7 +38,7 @@ main(argc, argv)
 }
 ```
 
- * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/run_your_program_with_arguments.md) if you need help on this
+ * See [run your program with arguments](https://github.com/richelbilderbeek/correct_cpp/blob/master/doc/run_your_program_with_arguments.md) if you need help on this
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) is a container of raw strings
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) has [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) elements
  * [argc](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgc.md) is never equals to zero
