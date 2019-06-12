@@ -4,10 +4,10 @@
 int main(int argc, char * argv[]) {
 
     // Print Hello followed by input argument
-    std::cout << "Hello ";
+    std::cout << "Hello";
 
     if (argc > 1) {
-        std::cout << argv[1];
+        std::cout << " " << argv[1];
     }
 
     std::cout << "\n";
